@@ -54,3 +54,27 @@
 .animate-slideUp {
   animation: slideUp 0.9s forwards;
 }
+
+
+/* CLASES PRODSITEMLISTCONTAINER */
+
+.carousel-control-prev, .carousel-control-next {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border: none;
+  border-radius: 0;
+  align-self: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.descuento{
+  color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
