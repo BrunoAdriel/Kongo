@@ -1,0 +1,40 @@
+
+/* Class img inicio pagina */
+.ContainerImg{
+  width: max-content;
+  height: max-content;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+.ImgItemContainer{
+  bottom: 0;
+  animation: subir 2s ease forwards;
+}
+
+@keyframes subir {
+  from {
+    transform: translateY(25%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+/* clases pie imagen principal */
+.PieImgContainer{
+  background-color: black;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  /* animation: subir 3s ease forwards; */
+}
+
+.ItemsPieImg{
+  color: white;
+  display: flex;
+
+}
+
+.LogoPie{
+  align-self:center
+}
