@@ -1,5 +1,5 @@
 
-/* Class img inicio pagina */
+/* CLASES IMG ITEM LIST */
 .ContainerImg{
   width: max-content;
   height: max-content;
@@ -20,21 +20,37 @@
     transform: translateY(0);
   }
 }
-/* clases pie imagen principal */
+/* clases pie imagen */
 .PieImgContainer{
   background-color: black;
   display: flex;
   flex-direction:row;
   justify-content: space-evenly;
-  /* animation: subir 3s ease forwards; */
 }
 
 .ItemsPieImg{
   color: white;
   display: flex;
-
+  align-items: center;
 }
 
 .LogoPie{
-  align-self:center
+  padding-bottom: 17%;
+  padding-right:5%;
+}
+
+/* animacion del pie de imagen */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.9s forwards;
 }
