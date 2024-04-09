@@ -8,7 +8,7 @@ const ProdsItemListContainer = () => {
 
     return (<>
     <section className='container'>
-        <h1>PRODUCTOS</h1>
+        <h1 className='CentradoTitulos' >PRODUCTOS</h1>
         <Carrusel imagenes={imagenes}/>
         </section>
         </>);

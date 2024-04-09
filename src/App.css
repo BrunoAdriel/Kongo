@@ -60,6 +60,11 @@
 
 /* CLASES PRODSITEMLISTCONTAINER */
 
+.CentradoTitulos{
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
 /* Estilos de las flechas carrusel */
 .carousel-control-prev, .carousel-control-next {
   width: 45px;
@@ -121,4 +126,11 @@
       transform: translateY(0);
       opacity: 1;
   }
+}
+
+/* Clases de los Botones del carrusel */
+
+.SpaceButtons{
+display: flex;
+justify-content: space-around;
 }
