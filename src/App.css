@@ -68,6 +68,7 @@
   border: none;
   border-radius: 0;
   align-self: center;
+  margin-bottom: 60px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -75,6 +76,9 @@
   height: 30px;
 }
 
+.carousel-item{
+  animation: subir 2s ease forwards;
+}
 
 /* Estilos de los textos del carrucel */
 .cuotasDeDescuento{
@@ -82,4 +86,39 @@
   display: flex;
   flex-direction: row;
   align-items: baseline;
+}
+
+/* Clases de las imagenes para la transicion y distancia */
+
+.carrusel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carrusel-wrapper {
+  display: flex;
+  transition: transform 2s ease;
+}
+
+.carrusel-item {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.carrusel-item img {
+  width: 100%;
+  opacity: 0;
+  animation: slideIn 2s forwards;
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(50%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
 }
