@@ -22,6 +22,7 @@
 }
 /* clases pie imagen */
 .PieImgContainer{
+  height: 150px;
   background-color: black;
   display: flex;
   flex-direction:row;
@@ -32,11 +33,12 @@
   color: white;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .LogoPie{
-  padding-bottom: 17%;
-  padding-right:5%;
+  margin-bottom: 40px;
+  margin-right: 8px;
 }
 
 /* animacion del pie de imagen */

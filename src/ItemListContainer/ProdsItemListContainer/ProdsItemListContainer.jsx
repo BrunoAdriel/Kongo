@@ -1,12 +1,12 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'; // Para los estilos
-import 'bootstrap/dist/js/bootstrap.bundle.min'; // Para funcionalidades de JS como el carrusel
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 const ProdsItemListContainer = () => {
     return (<>
     <section className='container'>
         <h1>PRODUCTOS</h1>
-        <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExample" className="carousel slide" data-bs-interval="false">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <div className="row">
