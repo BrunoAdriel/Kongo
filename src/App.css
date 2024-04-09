@@ -60,6 +60,7 @@
 
 /* CLASES PRODSITEMLISTCONTAINER */
 
+/* Estilos de las flechas carrusel */
 .carousel-control-prev, .carousel-control-next {
   width: 45px;
   height: 45px;
@@ -74,7 +75,9 @@
   height: 30px;
 }
 
-.descuento{
+
+/* Estilos de los textos del carrucel */
+.cuotasDeDescuento{
   color: red;
   display: flex;
   flex-direction: row;
