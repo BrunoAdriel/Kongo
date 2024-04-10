@@ -23,3 +23,14 @@ export const imgsRoot =
         { src:"https://acdn.mitiendanube.com/stores/219/431/products/9547fe55-0856-44cf-94ed-ff204fac6976-a373ad66dfdfe63cfc17050730313656-480-0.webp", alt:"Jogg Over Khea", name:"PANTALONES" },
     ]
 
+export const imgsOferta =
+    [
+        { src:"https://acdn.mitiendanube.com/stores/219/431/products/ddbaed12-94ff-463e-a4c3-27c241d6c013-eeb7a7a363420dc06416935192805066-480-0.webp", alt:"Remeron Brocken White", name:"Remeron Brocken White", price:52990, offer:32990 },
+        { src:"https://acdn.mitiendanube.com/stores/219/431/products/37c3f918-4b5c-44c5-b4f6-50dc01746ede-cb59aba225b6dfa65917012711571239-480-0.webp", alt:"Remeron Vatikano", name:"Remeron Vatikano", price:49900, offer:39900 },
+        { src:"https://acdn.mitiendanube.com/stores/219/431/products/ff84a132-6507-410e-beb6-32fcfffcfcf0-b5f23440f95c4f0a9616935192243908-480-0.webp", alt:"Remeron Be Night", name:"Remeron Be Night", price:52990, offer:32990 },
+        { src:"https://acdn.mitiendanube.com/stores/219/431/products/823389b7-5db6-4809-a88b-f1b2db53a4f2-fa4c0d8f117f0c94c817030844227007-480-0.webp", alt:"Remeron Queen", name:"Remeron Queen", price:49990, offer:39990 },
+        { src:"https://acdn.mitiendanube.com/stores/219/431/products/5cb28981-b7e4-4a7a-80a6-26105274b826-821f121cde571388f416935202308722-480-0.webp", alt:"Buzo NAB Black", name:"Buzo NAB Black", price:99900, offer:69990 },
+        { src:"https://acdn.mitiendanube.com/stores/219/431/products/285a9fba-0706-4633-8e60-bb63765e57f2-a1824d38b45393f16317125844592503-480-0.webp", alt:"Buzo Brand Lime", name:"Buzo Brand Lime", price:91990, offer:69990 },
+        { src:"https://acdn.mitiendanube.com/stores/219/431/products/e2245383-bd5c-473f-8352-d2a6cfe9a050-fc35ea5a924ead305e17126041756781-480-0.webp", alt:"Buzo Fear Blue", name:"Buzo Fear Blue", price:99900, offer:79990 },
+        { src:"https://acdn.mitiendanube.com/stores/219/431/products/7ebab8a1-7a0e-4835-86c7-5edf5ace5390-d75e4760e36bfa849917126005520746-480-0.webp", alt:"Buzo Reverse", name:"Buzo Reverse", price:92990, offer:49990 },
+    ]

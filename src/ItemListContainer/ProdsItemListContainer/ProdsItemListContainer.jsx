@@ -9,7 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 const ProdsItemListContainer = () => {
     return (<>
     <section className='container'>
-        <h1 className='CentradoTitulos' >PRODUCTOS</h1>
+        <h1 className='CentradoTitulos'>DESTACADOS</h1>
         <Carrusel imagenes={imagenes}/>
         <ImgRoots imgsRoot={imgsRoot}/>
         </section>

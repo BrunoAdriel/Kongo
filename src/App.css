@@ -97,7 +97,7 @@
 
 .carrusel-container {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .carrusel-wrapper {
@@ -109,6 +109,7 @@
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
+  position: relative; 
 }
 
 .carrusel-item img {
@@ -131,15 +132,27 @@
 /* Clases de los Botones del carrusel */
 
 .SpaceButtons{
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  position: absolute; 
+  bottom: -40px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  width: 100%;
+}
+
+.carrusel-item:hover .SpaceButtons {
+  opacity: 1; 
 }
 
 
 /* CLASES IMGROOT */
 
 .containerRoot{
-  padding-top: 200px;
+  margin-top: 150px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
 }
@@ -153,4 +166,26 @@ justify-content: space-around;
 .txtImgRoot{
   color: white;
   text-decoration: solid;
+}
+
+/* Estilos para agrandar las imagenes, no funcionan */
+
+.img-zoom{
+  transition: transform 0.5s ease; 
+}
+
+.img-zoom:hover {
+  transform: scale(1.1); 
+}
+
+/* CLASES DE OFERTA */
+
+.line{
+  border-top: gray 1px solid;
+  padding-bottom: 60px;
+}
+
+.alingRowP{
+  display: flex;
+  flex-direction: row;
 }
