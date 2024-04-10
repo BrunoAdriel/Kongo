@@ -49,7 +49,7 @@ const Carrusel = ({ imagenes }) => {
                                 </section>
                                 { focusButton === imageIndex && (
                                 <div className="SpaceButtons">
-                                    <button className='btn btn-dark'>Comprar</button>
+                                    <button className='btn btn-dark'>Comprar!</button>
                                     <button className='btn btn-secondary'>Ver mas!👀</button>
                                 </div>
                             )}

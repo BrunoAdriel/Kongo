@@ -134,3 +134,23 @@
 display: flex;
 justify-content: space-around;
 }
+
+
+/* CLASES IMGROOT */
+
+.containerRoot{
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sizeImg{
+  height: 310px;
+  width: 310px;
+  filter: brightness(0.8);
+}
+
+.txtImgRoot{
+  color: white;
+  text-decoration: solid;
+}
